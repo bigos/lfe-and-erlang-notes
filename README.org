@@ -1,0 +1,17 @@
+* Erlang and LFE notes
+
+This repository is supposed to be used for sharing notes and collaboration on
+various aspects of LFE and its tooling. Because of emergence of Rebar3 lots of
+documentation that can be found on the web is out of date. It is our goal to
+collect here information that refers to following versions or better.
+
+** TODO relevant versions
++ Elrang version 19
++ Rebar3 version 3
++ LFE version 1.2
+
+** Links
++ Erlang
+https://www.erlang.org
++ LFE
+https://github.com/rvirding/lfe
