@@ -1,0 +1,22 @@
+* Erlang
+
+** Binary packages for various OSes
+
+https://www.erlang-solutions.com/resources/download.html
+
+** Important tools
+Erlang has used various tools in the past but we will concentrate here on *Rebar3*
+
+*** Rebar3
+
+Rebar3 is an Erlang tool that makes it easy to create, develop, and release
+Erlang libraries, applications, and systems in a repeatable manner.
+
+Download:
+https://github.com/erlang/rebar3/releases
+After download copy it to ~/bin and make it executable.
+
+Documentation:
+http://www.rebar3.org/docs
+
+It is important to read the above documentation to see impressive capabilities of Rebar3.
