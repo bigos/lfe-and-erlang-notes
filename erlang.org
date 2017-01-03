@@ -1,3 +1,4 @@
+#+OPTIONS: ^:nil
 * Erlang
 
 ** Binary packages for various OSes

@@ -1,3 +1,4 @@
+#+OPTIONS: ^:nil
 * Erlang and LFE notes
 
 This repository is supposed to be used for sharing notes and collaboration on

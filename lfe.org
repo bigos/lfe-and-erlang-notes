@@ -1,3 +1,4 @@
+#+OPTIONS: ^:nil
 * LFE
 
 Here we will discuss or plans related to LFE and its tooling. Mainly we will
