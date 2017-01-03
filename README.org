@@ -7,8 +7,8 @@ collect here information that refers to following versions or better.
 
 ** relevant versions
 + Elrang version 19
-+ Rebar3 version 3
-+ LFE version 1.2
++ Rebar3 version 3.3.4
++ LFE version 1.2.1
 
 ** Links to notes.
 + [[file:erlang.org][Erlang and Rebar3]]
