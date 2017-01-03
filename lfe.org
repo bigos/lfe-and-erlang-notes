@@ -1,1 +1,21 @@
 * LFE
+
+Here we will discuss or plans related to LFE and its tooling. Mainly we will
+concentrate on Emacs.
+** Plans
+*** Emacs
+**** finding documentation and autocompletion
+some progress
+**** talking to LFE
+Discussed
+*** Documentation
+https://github.com/lfe
+http://docs.lfe.io/
+https://github.com/lfe-mug/lmug
+http://lfex.github.io/hyperpolyglot/
+https://lfe.gitbooks.io/reference-guide/content/
+https://github.com/lfe-rebar3/
+http://blog.lfe.io/tutorials/2016/03/25/0858-lfe-and-rebar3
+
+*** Rebar3 integration
+At the moment I would rather start an Erlang project and add lfe files as dependencies.
