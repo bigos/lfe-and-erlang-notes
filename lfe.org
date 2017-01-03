@@ -2,14 +2,21 @@
 
 Here we will discuss or plans related to LFE and its tooling. Mainly we will
 concentrate on Emacs.
+
 ** Plans
 *** Emacs
-**** finding documentation and autocompletion
-some progress
+**** finding documentation
+We can look up some Erlang documentation and the Hyperspec based on model,
+function name and arity.
+
+**** autocompletion
+We have a hard coded list of functions and are able to filter the entries based
+on a substring.
+
 **** talking to LFE
-+ Discussed
-+ Idris-mode example
-+ digging though beam files
++ discussed on Slack
++ idris-mode example
++ possibility of digging though beam files
 + check lfex
 ***** my plan
 + find way to query LFE for loaded modules
@@ -26,4 +33,5 @@ some progress
 + http://blog.lfe.io/tutorials/2016/03/25/0858-lfe-and-rebar3
 
 *** Rebar3 integration
-At the moment I would rather start an Erlang project and add lfe files as dependencies.
+At the moment I would rather start an Erlang project and add lfe files as
+dependencies.
