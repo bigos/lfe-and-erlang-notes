@@ -57,6 +57,22 @@ A curated collection of LFE libraries https://github.com/lfex
 
 + then query the module for defined functions
 
+** Early success
+
+Evaluating this form in scratch buffer will give interesting results
+
+#+BEGIN_SRC emacs-lisp
+(progn
+  (princ (format "====== loaded modules =============%c" 10))
+  (princ (shell-command-to-string (format "lfe -e \"%s\" "
+                                          "(m)")))
+  (princ (format "====== functions exported from a module =============%c" 10))
+  (princ (shell-command-to-string (format "lfe -e \"%s\" "
+                                "(m 'io)")))
+  (terpri)
+  (princ "-------------------------- ")
+  '(the-end))
+#+END_SRC
 
 ** Documentation
 + https://github.com/lfe
