@@ -42,12 +42,19 @@ How often do we need to do it?
 + discussed on Slack
 + idris-mode example
 + possibility of digging though beam files
+  + That might be not possible on system wide installed Erlangs due to file permissions
 
 ** check lfex
 A curated collection of LFE libraries https://github.com/lfex
 
 ** my plan
 + find way to query LFE for loaded modules
+  + a good candidates, terminal commands that we could call using Emacs.
+    #+BEGIN_EXAMPLE
+    lfe -e "(m)"
+    lfe -e "(m 'io)"
+    #+END_EXAMPLE
+
 + then query the module for defined functions
 
 
@@ -64,3 +71,7 @@ A curated collection of LFE libraries https://github.com/lfex
 ** Rebar3 integration
 At the moment I would rather start an Erlang project and add lfe files as
 dependencies.
+
+** Strange findings
+File ~lfe/emacs/lfe-mode.el~ already has a list of some LFE functions including
+those not mentioned elsewhere, like ~caaar~
