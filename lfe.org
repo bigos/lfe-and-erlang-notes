@@ -74,6 +74,17 @@ Evaluating this form in scratch buffer will give interesting results
   '(the-end))
 #+END_SRC
 
+*** Now we need
+
+**** query list of loaded modules
+and store it somewhere until we need to refresh it
+
+**** look for ways of speeding up the process
+perhaps caching some of the functions lists
+
+**** check if it would work on Windows
+hmm... do we need it at the moment?
+
 ** Documentation
 + https://github.com/lfe
 + http://docs.lfe.io/
