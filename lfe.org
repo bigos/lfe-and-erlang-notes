@@ -4,27 +4,54 @@
 Here we will discuss or plans related to LFE and its tooling. Mainly we will
 concentrate on Emacs.
 
-** Plans
-*** Emacs
-**** finding documentation
+** Emacs
+
+My progress so far
+https://github.com/bigos/Pyrulis/blob/master/Emacs/vendor/lfe-doc-finder.el
+
+*** finding documentation
 We can look up some Erlang documentation and the Hyperspec based on model,
 function name and arity.
 
-**** autocompletion
-We have a hard coded list of functions and are able to filter the entries based
-on a substring.
+We need to work on LFE documentation, so it can be used for such look up. That
+involves better documentation structure. Erlang documentation is a good example,
+but perhaps we should find something better that will work with arity errors.
 
-**** talking to LFE
+*** autocompletion
+We have a hard coded list of functions and are able to filter the entries based
+on a sub string. No proper auto completion dialog yet, but we can show to the user
+possible completions. At the moment we search for a better way of finding
+available functions.
+
+One developer has suggested something useful on 3/01/2016 around 8:02 AM of UTC
+on Slack channel general .
+
+Some useful functions
+#+BEGIN_EXAMPLE
+(m) ; gives a list of loaded modules
+(m 'io) ; gives a list of exported functions in a module os
+#+END_EXAMPLE
+
+What about the functions that are not exported?
+Do we need the for auto completion? If so is adding them a priority?
+
+Also how do we refresh the list of loaded modules and their functions?
+How often do we need to do it?
+
+** talking to LFE
 + discussed on Slack
 + idris-mode example
 + possibility of digging though beam files
-+ check lfex
-***** my plan
+
+** check lfex
+A curated collection of LFE libraries https://github.com/lfex
+
+** my plan
 + find way to query LFE for loaded modules
 + then query the module for defined functions
 
 
-*** Documentation
+** Documentation
 + https://github.com/lfe
 + http://docs.lfe.io/
 + https://github.com/lfe-mug/lmug
@@ -32,7 +59,8 @@ on a substring.
 + https://lfe.gitbooks.io/reference-guide/content/
 + https://github.com/lfe-rebar3/
 + http://blog.lfe.io/tutorials/2016/03/25/0858-lfe-and-rebar3
++ https://github.com/lfex
 
-*** Rebar3 integration
+** Rebar3 integration
 At the moment I would rather start an Erlang project and add lfe files as
 dependencies.
