@@ -21,3 +21,5 @@ Documentation:
 http://www.rebar3.org/docs
 
 It is important to read the above documentation to see impressive capabilities of Rebar3.
+
+Also, it's worth to remember that export DEBUG=1 gives you lot of debugging information.
