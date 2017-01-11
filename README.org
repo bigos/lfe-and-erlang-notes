@@ -14,7 +14,11 @@ collect here information that refers to following versions or better.
 ** Links to notes.
 + [[file:erlang.org][Erlang and Rebar3]]
 + [[file:lfe.org][LFE]]
++ [[file:comint.org][Comint]]
 
 ** External Links
 + Erlang https://www.erlang.org
 + LFE https://github.com/rvirding/lfe
++ Comint
+  + https://www.emacswiki.org/emacs/ComintModes
+  + https://www.masteringemacs.org/article/comint-writing-command-interpreter

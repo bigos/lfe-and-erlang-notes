@@ -74,6 +74,10 @@ Evaluating this form in scratch buffer will give interesting results
   '(the-end))
 #+END_SRC
 
+*** It works
+I can return the list of loaded modules and obtain list of functions exported
+from the module.
+
 *** Now we need
 
 **** query list of loaded modules
