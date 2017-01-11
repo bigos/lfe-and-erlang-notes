@@ -1,3 +1,31 @@
 #+OPTIONS: ^:nil
 * Comint
 Add your notes here
+** The Theory
+*** core
+**** spawning a process
+**** redirecting pipes to Emacs or use pseudo-terminal
+***** pipes
+****** stdin
+****** stdout
+****** stderr
+***** depends on ~process-connection-type~
+*** fundamental building blocks
+**** process interaction
+***** start-process
+somewhat asynchronous
+***** call-process
+synchronous
+**** basic interpreter framework
+***** used by various REPLs
+**** handles
+***** input/output
+***** command history
+*** Use
+**** comint-run
+***** only one argument
+****** experiment
+#+BEGIN_EXAMPLE
+(comint-run "~/bin/lfe")
+#+END_EXAMPLE
+Takes me to Erlang shell, why?
