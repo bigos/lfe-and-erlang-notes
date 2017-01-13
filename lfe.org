@@ -5,7 +5,11 @@ Here we will discuss or plans related to LFE and its tooling. Mainly we will
 concentrate on Emacs.
 
 ** Emacs
+*** parsing
+https://www.emacswiki.org/emacs/ParserCompiler
 
+
+*** progress
 My progress so far
 https://github.com/bigos/Pyrulis/blob/master/Emacs/vendor/lfe-doc-finder.el
 
