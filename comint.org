@@ -93,3 +93,17 @@ last eval is not being output
                 (buffer-substring-no-properties
                  comint-last-input-start (point-max)))))))
 #+END_SRC
+
+** success
+hopefully a solution
+
+#+BEGIN_SRC elisp
+(add-hook 'comint-output-filter-functions
+          '(lambda (txt) (message (format  " output ----------- %c%s" 10 txt))))
+
+(let* ((process-buffer (make-comint-in-buffer "StrangeTerm" "*strange-term*" "/bin/bash"))
+       (p (get-buffer-process process-buffer)))
+  (comint-simple-send p "ls -l /home"))
+
+(princ "------------------------------------------------------")
+#+END_SRC
