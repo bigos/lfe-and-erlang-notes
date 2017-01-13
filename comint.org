@@ -36,9 +36,9 @@ also M-x shell the running lfe
 ******* explanation
 #+BEGIN_EXAMPLE
 The reason for getting the erlang shell from within that shell is how you
-erlang/lfe gets its input the erlang start is rather sensitive and it if can't
-open a proper input tty it just defaults to the erlang shell might work with
-m-x ansi-term If you check the inferior-lfe function in inferior-lfe.el you
+erlang/lfe gets its input, the erlang start is rather sensitive and it if can't
+open a proper input tty it just defaults to the erlang shell, might work with
+m-x ansi-term. If you check the inferior-lfe function in inferior-lfe.el you
 will see the work we goto to get the input right
 #+END_EXAMPLE
 **** make-comint-in-buffer
