@@ -2,6 +2,9 @@
 * Comint
 Add your notes here
 ** The Theory
+Processes
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Processes.html#Processes
+
 *** core
 **** spawning a process
 **** redirecting pipes to Emacs or use pseudo-terminal
