@@ -46,3 +46,30 @@ to a dumb terminal. If there's no interactive mode running M-x shell might help.
 **** list all processes
 M-x list-processes
 ** Writing a comint mode
+*** extending
+**** wrapping functions around ~make-comint-in-buffer~
+**** writing a major mode
+*** The comint template
+**** declare variables
+users can change settings without editing the code
+***** path
+***** cli arguments
+***** key bindings map
+***** prompt regexp
+**** basic housekeeping
+***** process
+****** restarting
+****** starting new
+***** many comint macros
+**** major mode definition
+***** derive from comint mode
+****** overwrite comint-prompt-regexp
+with our version
+****** force prompt to be read only
+******  set comint-process-echoes
+***** paragraph settings
+easy navigation
+** Extending the mode
+*** syntax highlighting
+*** filter function variables
+triggered and run in certain conditions
