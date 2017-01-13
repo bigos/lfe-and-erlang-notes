@@ -5,6 +5,7 @@ Here we will discuss or plans related to LFE and its tooling. Mainly we will
 concentrate on Emacs.
 
 ** Emacs
+http://nic.ferrier.me.uk/blog/2012_07/tips-and-tricks-for-emacslisp
 *** parsing
 https://www.emacswiki.org/emacs/ParserCompiler
 
