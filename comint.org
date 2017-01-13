@@ -76,3 +76,20 @@ easy navigation
 *** syntax highlighting
 *** filter function variables
 triggered and run in certain conditions
+** problem
+last eval is not being output
+
+#+BEGIN_SRC elisp
+(let ((p (get-buffer-process "*inferior-lfe*")))
+  (comint-simple-send p "(+  3 2 1)")
+  (with-current-buffer (get-buffer "*inferior-lfe*")
+    (save-excursion
+      (goto-char (process-mark p))
+      (forward-line 0)
+      (princ   (list
+                'fully
+                (buffer-string)
+                'subsy
+                (buffer-substring-no-properties
+                 comint-last-input-start (point-max)))))))
+#+END_SRC
